@@ -1,14 +1,23 @@
 body {
 	background-color: #FF8233;
-}
-
-.navbar .row {
-	width: 100%;
-	text-align: center;
-}
-
-nav a {
 	color: black;
+}
+
+nav {
+	background-color: rgba(255, 130, 51, 0.8);
+}
+nav .row {
+	font-size: 16px;
+	width: 100%;
+}
+
+nav a, nav a:hover, nav a:active {
+	color: black;
+}
+
+.join-club a {
+	border-style: solid;
+	border-width: 3px;
 }
 
 /* Animated icon styling from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/ */
@@ -99,8 +108,48 @@ left: 8px;
 
 .hero h1 {
 	font-size: 32px;
-	text-align: center;
 	line-height: 1.8;
 	text-decoration: underline;
 	text-decoration-color: green;
+}
+
+.general-info .row {
+	max-width: 1200px;
+}
+.general-info-text {
+	background-color: white;
+}
+
+.general-info-list {
+	font-size: 21px;
+}
+
+.org-info-list {
+	font-size: 18px;
+}
+
+.contact {
+	font-size: 18px;
+}
+
+/* --Media query----------------------------------- */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
