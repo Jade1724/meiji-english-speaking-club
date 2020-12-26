@@ -8,13 +8,62 @@
 	<!-- <link rel="icon" href="#"> -->
 	<title>明治大学英語を喋るサークル</title>
 
+	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<h1>テスト</h1>
+	<nav class="navbar navbar-expand-lg fixed-top container-fluid">
+    <div class="row mx-0">
+      <div id="menuBarToggler" class="col-10 d-lg-none d-flex align-items-center p-0">
+        <div class="navbar-toggler hamburger-menu" role="button" data-toggle="collapse" data-target="#navbarButtons" aria-controls="navbarButtons" aria-expanded="false">
+          <div class="animated-icon"><span></span><span></span><span></span></div>
+          </div>
+      </div>
 
-	<script src="js/bootstrap.min.js"></script>
+      <a id="logo" class="col-2 d-flex align-items-center justify-content-center justify-content-lg-end" href="#"><img class=" d-none d-lg-block" src="https://picsum.photos/60" alt="Logo"></a>
+
+      <div class="collapse navbar-collapse col-lg-10 order-lg-first" id="navbarButtons">
+        <ul class="navbar-nav">
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="#">TOP<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BIOGRAPHY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MOVIE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LYRIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">STORE</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="mt-5">
+  	<div class="hero container-fluid">
+  		<div class="row">
+  			<div class="col-md-6 d-flex justify-content-center">
+  				<img class="hero-image img-fluid" src="images/hero.png">
+  			</div>
+  			<div class="col-md-6 d-flex align-items-center justify-content-center">
+  				<h1>雑談力で、真の力を<br>英語力が劇的に伸びる</h1>
+  			</div>
+  		</div>
+  	</div>
+  </main>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
