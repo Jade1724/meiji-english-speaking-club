@@ -15,6 +15,14 @@ nav a, nav a:hover, nav a:active {
 	color: black;
 }
 
+nav ul {
+	height: 100vh;
+}
+
+nav .nav-link {
+	display: inline-block;
+}
+
 .join-club a {
 	border-style: solid;
 	border-width: 3px;
@@ -132,6 +140,10 @@ left: 8px;
 	font-size: 18px;
 }
 
+.contact a {
+	color: black;
+}
+
 /* --Media query----------------------------------- */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -146,7 +158,9 @@ left: 8px;
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
+  nav ul {
+	height: auto;
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
