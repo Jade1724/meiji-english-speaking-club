@@ -1,4 +1,6 @@
-body {
+
+body { 
+	font-family: "BIZ UDPゴシック","BIZ UDPGothic", sans-serif;
 	background-color: #FF8233;
 	color: black;
 }
@@ -114,53 +116,97 @@ top: 21px;
 left: 8px;
 } /*End of animated icon styling*/
 
+.logo-block {
+	z-index: 2000;
+}
+.hero .row {
+	max-width: 1200px;
+}
+
+.hero {
+	font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B", serif;
+}
+
 .hero h1 {
-	font-size: 32px;
+	font-weight: bold;
+	font-size: 28px;
 	line-height: 1.8;
 	text-decoration: underline;
 	text-decoration-color: green;
+	text-decoration-thickness: 5px;
+	text-underline-position: under;
 }
 
-.general-info .row {
+#general-info .row {
 	max-width: 1200px;
 }
+
+
 .general-info-text {
 	background-color: white;
 }
 
 .general-info-list {
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .org-info-list {
-	font-size: 18px;
+	font-size: 16px;
 }
 
-.contact {
-	font-size: 18px;
-}
-
-.contact a {
+.org-info-list a {
 	color: black;
+	text-decoration: underline;
+}
+
+#contact {
+	font-size: 16px;
+}
+
+#contact h2 {
+	font-size: 28px;
+}
+
+#contact ul {
+	font-size: 14px;
+}
+
+#contact a {
+	color: black;
+	text-decoration: underline;
 }
 
 /* --Media query----------------------------------- */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	
+	.hero h1, #contact h2 {
+		font-size: 32px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	
+	#contact p, #contact ul {
+		font-size: 24px;
+	}
   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  nav ul {
-	height: auto;
-}
+	nav ul {
+		height: auto;
+	}
+	.hero h1, #contact h2 {
+		font-size: 42px;
+	}
+	.general-info-image-wrapper {
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	#general-info img {
+		border-radius: 35px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

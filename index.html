@@ -22,11 +22,11 @@
           </div>
       </div>
 
-      <a id="logo" class="col-1 d-flex align-items-center justify-content-center justify-content-lg-end" href="#"><img class=" d-none d-lg-block" src="images/logo.png" alt="Logo"></a>
-
+      <!-- <a id="logo" class="col-1 d-flex align-items-center justify-content-center justify-content-lg-end" href="#"><img class=" d-none d-lg-block" src="images/logo.png" alt="Logo"></a>
+ -->
       <div class="collapse navbar-collapse col-lg-11 order-lg-first" id="navbarButtons">
         <ul class="navbar-nav align-items-center">
-          <li class="nav-item mt-3 mt-lg-0">
+          <!-- <li class="nav-item mt-3 mt-lg-0">
             <a class="nav-link" href="#">ABOUT</a>
           </li>
           <li class="nav-item">
@@ -34,27 +34,28 @@
           </li>
           <li class="nav-item">
             <a class="nav-link px-2" href="#">MEMBERS</a>
+
+          </li> -->
+          <li class="nav-item my-3 my-lg-0">
+            <a class="nav-link px-2" href="#contact">お問い合わせ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-2" href="#">CONTACT</a>
+            <a class="nav-link px-2" href="#general-info">サークル情報</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link px-2" href="#">CLUB INFORMATION</a>
-          </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link px-2" href="#">FAQ</a>
           </li>
           <li class="join-club nav-item">
             <a class="nav-link border-success rounded px-2" href="#">入サーはこちらから</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
   </nav>
 
   <main class="mt-5">
-  	<div class="hero container-fluid">
-  		<div class="row">
+  	<div class="hero container-fluid mb-4">
+  		<div class="row mx-auto">
   			<div class="col-md-6">
   				<img class="hero-image img-fluid d-block mx-auto" src="images/hero.png">
   			</div>
@@ -64,38 +65,41 @@
   		</div>
   	</div>
 
-    <div class="general-info container-fluid">
+    <div id="general-info" class="container-fluid px-0 py-5 px-lg-1">
       <div class="row mx-auto">
-        <div class="col-lg-10">
-          <img class="w-100 rounded" src="https://dummyimage.com/800x500">
+        <div class="general-info-image-wrapper col-lg-10 px-0">
+          <img class="w-100" srcset="images/activity-photo-sm.png 300w, images/activity-photo.png 800w"
+                  sizes="(max-width: 500px) 300px, 800px"
+                  src="images/activity-photo.png"
+                  alt="活動写真">
         </div>
         <div class="col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-end mt-2 mt-lg-0">
-          <div class="general-info-text rounded p-3">
+          <div class="general-info-text text-nowrap rounded p-3">
             <ul class="general-info-list list-unstyled pl-0">
-              <li>活動形態&#58;オンライン</li>
-              <li>活動日時&#58;金曜日22時&#126;</li>
-              <li>補講日&#58;月曜日22時&#126;</li>
-              <li>メンバー数&#58;23名</li>
-              <li>男女比&#58;6&#58;4</li>
+              <li>活動形態：オンライン</li>
+              <li>活動日時：金曜日22:00&#126;23:30</li>
+              <li>補講日：月曜日22:00&#126;23:30</li>
+              <li>メンバー数：23名</li>
+              <li>男女比：6&#58;4</li>
             </ul>
-            <ul class="org-info-list list-unstyled pl-0">
-              <li>創立&#58;2019年10月31日</li>
-              <li>代表&#58;市之瀨朋大</li>
-              <li>形態&#58;非公認</li>
-              <li>連絡先&#58;<br>meijiunienglish2019@gmail.com <br>またはTwitterのDM</li>
+            <ul class="org-info-list list-unstyled mb-0 pl-0">
+              <li>創立：2019年10月31日</li>
+              <li>代表：市之瀬朋大</li>
+              <li>形態：非公認</li>
+              <!-- <li>連絡先：<br><a href="mailto:meijiunienglish2019@gmail.com" target="_blank">meijiunienglish2019@gmail.com</a><br>またはTwitter(<a href="https://twitter.com/meijiunienglish" target="_blank">@MeijiuniEnglish</a>)のDM</li> -->
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="contact text-center mx-3 my-5">
-      <h2>CONTACT</h2>
-      <p>ご質問・ご相談は、以下の連絡先から受け付けております。<br>お気軽にご連絡ください。</p>
+    <div id="contact" class="text-center my-5 ">
+      <h2>お問い合わせ</h2>
+      <p class="p-2">ご質問・ご相談は、以下の連絡先から受け付けております。<br>お気軽にご連絡ください。</p>
       <div class="d-inline-block border border-dark rounded p-2 px-sm-5 py-sm-3">
-        <ul class="list-unstyled mb-0">
-          <li>Mail： <a href="mailto:meijiunienglish@gmail.com">meijiunienglish@gmail.com</a></li>
-          <li>Twitter： <a href="https://twitter.com/meijiunienglish">DM</a></li>
+        <ul class="list-unstyled text-left mb-0">
+          <li class="text-nowrap">Email：<a href="mailto:meijiunienglish2019@gmail.com">meijiunienglish2019@gmail.com</a></li>
+          <li>TwitterのDM：<a href="https://twitter.com/meijiunienglish">@MeijiuniEnglish</a></li>
         </ul>
       </div>
     </div>
