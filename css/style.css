@@ -1,31 +1,32 @@
 
 body { 
-	font-family: "BIZ UDPゴシック","BIZ UDPGothic", sans-serif;
+	font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B", "Hiragino Maru Gothic ProN W4", "ヒラギノ丸ゴ ProN W4", sans-serif;
 	background-color: #FF8233;
 	color: black;
 }
 
 nav {
 	background-color: rgba(255, 130, 51, 0.8);
-}
-nav .row {
 	font-size: 16px;
-	width: 100%;
 }
 
 nav a, nav a:hover, nav a:active {
 	color: black;
 }
 
-nav ul {
-	height: 100vh;
-}
-
 nav .nav-link {
 	display: inline-block;
 }
 
-.join-club a {
+.nav-item.vertical-border {
+	border-right: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+.join-club .nav-link {
+	font-size: 16px;
+	color: white;
+	border-radius: 20px;
 	border-style: solid;
 	border-width: 3px;
 }
@@ -124,7 +125,12 @@ left: 8px;
 }
 
 .hero {
-	font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B", serif;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.hero-image {
+	width: 1240px;
 }
 
 .hero h1 {
@@ -137,34 +143,60 @@ left: 8px;
 	text-underline-position: under;
 }
 
-#general-info .row {
+#about {
+	font-size: 20px;
+	color: white;
+}
+
+.about-text {
+	max-width: 800px;
+}
+
+#general-info {
+	background-color: white;
+}
+
+main h2 {
+	font-size: 20px;
+}
+/*#general-info h2, #contact h2 {
+	font-size: 28px;
+}*/
+
+/*#general-info .row {
 	max-width: 1200px;
 }
 
 
 .general-info-text {
 	background-color: white;
-}
+}*/
 
 .general-info-list {
-	font-size: 18px;
+	font-size: 13px;
 }
 
-.org-info-list {
-	font-size: 16px;
+#activity {
+	color: white;
 }
 
-.org-info-list a {
+.activity-info > div {
+	border: 6px solid white;
+	max-width: 1020px;
+}
+
+.activity-info h3 {
+	font-size: 20px;
+}
+
+.activity-info p {
+	font-size: 12px;
 	color: black;
-	text-decoration: underline;
+	background-color: white;
 }
 
 #contact {
 	font-size: 16px;
-}
-
-#contact h2 {
-	font-size: 28px;
 }
 
 #contact ul {
@@ -197,15 +229,20 @@ left: 8px;
 	nav ul {
 		height: auto;
 	}
-	.hero h1, #contact h2 {
-		font-size: 42px;
+	#about {
+		font-size: 26px;
 	}
-	.general-info-image-wrapper {
-		padding-left: 15px!important;
-		padding-right: 15px!important;
+	main h2 {
+		font-size: 50px;
 	}
-	#general-info img {
-		border-radius: 35px;
+	.general-info-list {
+		font-size: 28px;
+	}
+	.activity-info h3 {
+		font-size: 40px;
+	}
+	.activity-info p {
+		font-size: 26px;
 	}
 }
 

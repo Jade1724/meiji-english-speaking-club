@@ -14,84 +14,103 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg fixed-top container-fluid">
-    <div class="row text-center mx-0">
-      <div id="menuBarToggler" class="col-11 d-lg-none d-flex align-items-center p-0">
-        <div class="navbar-toggler hamburger-menu" role="button" data-toggle="collapse" data-target="#navbarButtons" aria-controls="navbarButtons" aria-expanded="false">
-          <div class="animated-icon"><span></span><span></span><span></span></div>
-          </div>
-      </div>
+	<nav class="navbar navbar-expand-lg text-center fixed-top container-fluid">
+    <div id="menuBarToggler" class="d-lg-none d-flex align-items-center p-0">
+      <div class="navbar-toggler hamburger-menu" role="button" data-toggle="collapse" data-target="#navbarButtons" aria-controls="navbarButtons" aria-expanded="false">
+        <div class="animated-icon"><span></span><span></span><span></span></div>
+        </div>
+    </div>
 
-      <!-- <a id="logo" class="col-1 d-flex align-items-center justify-content-center justify-content-lg-end" href="#"><img class=" d-none d-lg-block" src="images/logo.png" alt="Logo"></a>
- -->
-      <div class="collapse navbar-collapse col-lg-11 order-lg-first" id="navbarButtons">
-        <ul class="navbar-nav align-items-center">
-          <!-- <li class="nav-item mt-3 mt-lg-0">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2" href="#">CONTENTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2" href="#">MEMBERS</a>
-
-          </li> -->
-          <li class="nav-item my-3 my-lg-0">
-            <a class="nav-link px-2" href="#contact">お問い合わせ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2" href="#general-info">サークル情報</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link px-2" href="#">FAQ</a>
-          </li>
-          <li class="join-club nav-item">
-            <a class="nav-link border-success rounded px-2" href="#">入サーはこちらから</a>
-          </li> -->
-        </ul>
-      </div>
+    <!-- <a id="logo" class="col-1 d-flex align-items-center justify-content-center justify-content-lg-end" href="#"><img class=" d-none d-lg-block" src="images/logo.png" alt="Logo"></a>
+-->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarButtons">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item vertical-border mt-3 mt-lg-0 px-2">
+          <a class="nav-link py-lg-0" href="#about">概要</a>
+        </li>
+        <li class="nav-item vertical-border px-2">
+          <a class="nav-link px-2 py-lg-0" href="#general-info">活動内容</a>
+        </li>
+        <li class="nav-item vertical-border px-2">
+          <a class="nav-link px-2 py-lg-0" href="#">FAQ</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link px-2 py-lg-0" href="#contact">お問い合わせ</a>
+        </li>
+        <li class="join-club nav-item px-2">
+          <a class="nav-link btn btn-success" href="#" role="button">入サーはこちらから</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
   <main class="mt-5">
-  	<div class="hero container-fluid mb-4">
-  		<div class="row mx-auto">
-  			<div class="col-md-6">
-  				<img class="hero-image img-fluid d-block mx-auto" src="images/hero.png" alt="イラスト">
-  			</div>
-  			<div class="col-md-6 d-flex align-items-center justify-content-center">
-  				<h1 class="text-center">雑談力で、真の力を<br>英語力が劇的に伸びる</h1>
-  			</div>
-  		</div>
-  	</div>
 
-    <div id="general-info" class="container-fluid px-0 py-5 px-lg-1">
+    <div class="hero container-fluid mb-5">
       <div class="row mx-auto">
-        <div class="general-info-image-wrapper col-lg-10 px-0">
-          <img class="w-100" srcset="images/activity-photo-sm.png 300w, images/activity-photo.png 800w"
-                  sizes="(max-width: 500px) 300px, 800px"
-                  src="images/activity-photo.png"
-                  alt="活動写真">
+        <div class="col-md-8">
+          <img class="hero-image img-fluid d-block mx-auto" src="images/activity-photo.png" alt="英会話をするメンバーたち">
         </div>
-        <div class="col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-end mt-2 mt-lg-0">
-          <div class="general-info-text text-nowrap rounded p-3">
-            <ul class="general-info-list list-unstyled pl-0">
-              <li>活動形態：オンライン</li>
-              <li>活動日時：金曜日22:00&#126;23:30</li>
-              <li>補講日：月曜日22:00&#126;23:30</li>
-              <li>メンバー数：23名</li>
-              <li>男女比：6&#58;4</li>
-            </ul>
-            <ul class="org-info-list list-unstyled mb-0 pl-0">
-              <li>創立：2019年10月31日</li>
-              <li>代表：市之瀬朋大</li>
-              <li>形態：非公認</li>
-              <!-- <li>連絡先：<br><a href="mailto:meijiunienglish2019@gmail.com" target="_blank">meijiunienglish2019@gmail.com</a><br>またはTwitter(<a href="https://twitter.com/meijiunienglish" target="_blank">@MeijiuniEnglish</a>)のDM</li> -->
-            </ul>
-          </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
+          <h1 class="text-center text-nowrap">雑談力で、真の力を<br>英語力が劇的に伸びる</h1>
         </div>
       </div>
     </div>
+
+    <div id="about" class="mt-5 pt-5">
+      <div class="about-text d-block mx-auto">
+        <p>アメリカの大学に留学している日本人から、こんな話を聞きました。</p>
+        <p>「大学の講義はしっかりと予習すれば、教授が話していることも分かるし、
+  課題もこなせる。
+  でも、複数のアメリカ人同級生と一緒に飲みに行くと、彼らが盛り上がっている会話に全くついていけない・・・」</p>
+        <p>友人、恋人、職場の同僚…あらゆる人間関係で「雑談」は不可欠です。</p>
+        <p>日本語でのコミュニケーションなら問題がなくても、英語となると、上手く会話できない人が多いと思います。</p>
+        <p>弊サークルでは、この「英語の雑談力」を伸ばすため、活動時間の大半を、
+  あえてトークテーマを設けない「フリートーク」にあてています。</p>
+        <p>仕事や留学などで現地の方と会った際、かけがえのない友情・信頼関係を構築してほしい。</p>
+        <p>そんな思いで、弊サークルは活動しています。</p>
+      </div>
+    </div>
+
+    <div id="general-info" class="py-5">
+      <h2 class="text-center">サークル概要</h2>
+      <div class="d-flex align-items-center justify-content-center mt-2">
+        <div class="info-list-wrapper">
+          <ul class="general-info-list list-unstyled pl-0 mb-0">
+            <li>活動形態：オンライン</li>
+            <li>活動日時：金曜日22:00&#126;23:30</li>
+            <li>補講日：月曜日22:00&#126;23:30</li>
+            <li>メンバー数：23名</li>
+            <li class="mb-2">男女比：6&#58;4</li>
+            <li>創立：2019年10月31日</li>
+            <li>代表：市之瀬朋大(明治大学 2年 法学部)</li>
+            <li>形態：非公認</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  	
+    <div id="activity" class="mt-5">
+      <h2 class="text-center">活動内容</h2>
+      <div class="activity-info d-block mx-auto">
+        <div class="free-talk d-flex mx-auto mb-3">
+          <h3 class="text-nowrap d-block my-auto p-3">フリートーク</h3>
+          <p class="d-block my-auto p-3">最近あった出来事についての話や近況報告など、ジャンルにとらわれずに雑談をします。
+弊サークルが最も重点を置いて行っている活動です。</p>
+        </div>
+        <div class="vocabulary d-flex mx-auto mb-3">
+          <h3 class="text-nowrap d-block my-auto p-3">単語の説明</h3>
+          <p class="d-block my-auto p-3">メンバーそれぞれに割り振った英単語を、他のメンバーに英語で説明します。
+説明する英単語は、物や人名など多岐に渡ります。</p>
+        </div>
+        <div class="toefl-question d-flex mx-auto mb-4">
+          <h3 class="text-nowrap d-block my-auto p-3">TOEFL<br>Question</h3>
+          <p class="d-block my-auto p-3">TOEFLスピーキング・セクションの問１を練習します。TOEICよりも海外で多方面にスコアが通用するTOEFLのスピーキング・セクションを人前で行い、本番で実力を発揮しやすくなります。</p>
+        </div>
+        <h3 class="text-center">etc...</h3>
+      </div>
+    </div>
+
 
     <div id="contact" class="text-center my-5 ">
       <h2>お問い合わせ</h2>
