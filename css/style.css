@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 
 body { 
 	font-family: "UD デジタル 教科書体 N-B","UD Digi Kyokasho N-B", "Hiragino Maru Gothic ProN W4", "ヒラギノ丸ゴ ProN W4", sans-serif;
@@ -16,11 +19,6 @@ nav a, nav a:hover, nav a:active {
 
 nav .nav-link {
 	display: inline-block;
-}
-
-.nav-item.vertical-border {
-	border-right: 1px solid rgba(0, 0, 0, 0.5);
-
 }
 
 .join-club .nav-link {
@@ -199,17 +197,29 @@ main h2 {
 	background-color: white;
 }
 
-#faq .card:active {
-	outline: none;
+#faq button:focus {
+	box-shadow: none;
 }
 
 #faq .card-header {
 	background-color: white;
 }
 
+
 #faq .card-header button {
 	font-size: 14px;
 	color: black;
+}
+
+#faq button i {
+	color: #FF8233;
+}
+
+.fa-chevron-circle-down.rotate {
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(1800deg);
+	transform: rotate(-180deg);
 }
 
 #faq .card-body {
@@ -249,6 +259,9 @@ main h2 {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	.nav-item.vertical-border {
+	  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  }
 	nav ul {
 		height: auto;
 	}
